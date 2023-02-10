@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&family=Staatliches&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Formulario-Validación</title>
+  </head>
+
+  <body>
+    <main class="contenedor">
+      <div class="grid">
+        <div class="imagen">
+          <img src="img/imagen-formulario.jpg" alt="imagen-login-formulario" />
+        </div>
+        <form class="formulario" id="formulario">
+          <div class="texto centrar-texto">
+            <div class="contenido-logo">
+              <p class="logo">Viaja Pronto con ViajaPe</p>
+            </div>
+            <h2 class="texto1">Crea tu cuenta aquí</h2>
+            <p class="texto2">Si ya tienes una cuenta <span>inicia sesión</span></p>
+          </div>
+          <div class="campo">
+            <label for="nombre" class="nombre">Ingrese tu Nombre</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Nombre" />
+          </div>
+          <div class="campo">
+            <label for="apellido" class="apellido">Ingrese tu Apellido</label>
+            <input type="text" name="apellido" id="apellido" placeholder="Apellido" />
+          </div>
+          <div class="campo">
+            <label for="email" class="email">Ingrese tu Email</label>
+            <input type="email" name="email" id="email" placeholder="Email" />
+          </div>
+          <div class="campo">
+            <label for="pass" class="pass">Ingrese tu contraseña</label>
+            <div class="campo_ojos">
+              <input type="password" name="pass" id="pass" class="pass" placeholder="Contraseña" />
+              <img src="img/Show.png" class="icon" id="eye" alt="" />
+            </div>
+          </div>
+          <button type="submit" class="button" disabled>Registrarse</button>
+        </form>
+      </div>
+    </main>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>

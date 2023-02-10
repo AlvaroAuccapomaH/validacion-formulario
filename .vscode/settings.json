@@ -1,0 +1,7 @@
+{
+  "prettier.printWidth": 500000000000000000000,
+  "prettier.proseWrap": "preserve",
+  "diffEditor.wordWrap": "on",
+  "editor.wordWrap": "on",
+  "html.format.wrapAttributes": "force"
+}
